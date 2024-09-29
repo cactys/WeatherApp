@@ -1,0 +1,78 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/font.css);
+@import url(../vendor/variables.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/search-form/search-form.css);
+@import url(../blocks/search-form/__input/search-form__input.css);
+@import url(../blocks/search-form/__button/search-form__button.css);
+@import url(../blocks/search-form/__button/_reset/search-form__button_reset.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/weather-today/weather-today.css);
+
+@import url(../blocks/location/location.css);
+@import url(../blocks/location/__local/location__local.css);
+@import url(../blocks/location/__city/location__city.css);
+@import url(../blocks/location/__data/location__data.css);
+@import url(../blocks/location/__time/location__time.css);
+@import url(../blocks/location/__temp/location__temp.css);
+@import url(../blocks/location/__weather/location__weather.css);
+@import url(../blocks/location/__weather-status/location__weather-status.css);
+@import url(../blocks/location/__weather-icon/location__weather-icon.css);
+@import url(../blocks/location/__clouds/location__clouds.css);
+@import url(../blocks/location/__feeling/location__feeling.css);
+
+@import url(../blocks/card-list/card-list.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__container/card__container.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__value/card__value.css);
+@import url(../blocks/card/__bar-container/card__bar-container.css);
+
+@import url(../blocks/card/__range/card__range.css);
+@import url(../blocks/card/__range/_disable/card__range_disable.css);
+@import url(../blocks/card/__range/_pressure/card__range_pressure.css);
+@import url(../blocks/card/__range-ellipse/card__range-ellipse.css);
+
+@import url(../blocks/card/__bar/card__bar.css);
+@import url(../blocks/card/__bar/_disable/card__bar_disable.css);
+@import url(../blocks/card/__bar/_pressure/card__bar_pressure.css);
+
+@import url(../blocks/card/__value-container/card__value-container.css);
+@import url(../blocks/card/__bar-value/card__bar-value.css);
+@import url(../blocks/card/__bar-value/_disable/card__bar-value_disable.css);
+@import url(../blocks/card/__min-value/card__min-value.css);
+@import url(../blocks/card/__min-value/_disable/card__min-value_disable.css);
+@import url(../blocks/card/__max-value/card__max-value.css);
+@import url(../blocks/card/__max-value/_disable/card__max-value_disable.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__navigation/slider__navigation.css);
+@import url(../blocks/slider/__nav-title/slider__nav-title.css);
+@import url(../blocks/slider/__nav/slider__nav.css);
+@import url(../blocks/slider/__nav-link/slider__nav-link.css);
+@import url(../blocks/slider/__nav-link/_active/slider__nav-link_active.css);
+@import url(../blocks/slider/__content/slider__content.css);
+@import url(../blocks/slider/__arrow/slider__arrow.css);
+@import url(../blocks/slider/__arrow/_next/slider__arrow_next.css);
+@import url(../blocks/slider/__arrow/_prev/slider__arrow_prev.css);
+@import url(../blocks/slider/__arrow/_disabled/slider__arrow_disabled.css);
+@import url(../blocks/slider/__list/slider__list.css);
+@import url(../blocks/slider/__list-item/slider__list-item.css);
+@import url(../blocks/slider/__date/slider__date.css);
+@import url(../blocks/slider/__icon/slider__icon.css);
+@import url(../blocks/slider/__temp/slider__temp.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__link/footer__link.css);

@@ -1,0 +1,12 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .card__container {
+    row-gap: 12px;
+  }
+}

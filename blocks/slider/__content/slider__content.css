@@ -1,0 +1,20 @@
+.slider__content {
+  column-gap: 32px;
+  display: grid;
+  grid-template-columns: 56px 1fr 56px;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 887px) {
+  .slider__content {
+    column-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .slider__content {
+    column-gap: 16px;
+    grid-template-columns: 40px 1fr 40px;
+  }
+}

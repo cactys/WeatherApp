@@ -1,0 +1,35 @@
+.card {
+  border-radius: 8px;
+  padding: 16px;
+  width: 158px;
+  height: 196px;
+  background: rgba(245, 244, 244, 0.4);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+@media screen and (max-width: 887px) {
+  .card {
+    width: 163px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    padding: 12px;
+    row-gap: 12px;
+    width: 100%;
+    max-width: 128px;
+    height: 148px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    padding: 12px;
+    row-gap: 12px;
+    width: 98.33px;
+  }
+}

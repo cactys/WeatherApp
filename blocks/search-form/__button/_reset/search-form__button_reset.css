@@ -1,0 +1,8 @@
+.search-form__button_reset {
+  background: url(../../../../public/images/button-icons/search-form__close.svg) no-repeat center / cover;
+  cursor: pointer;
+}
+
+.search-form__button_reset:hover {
+  background: url(../../../../public/images/button-icons/search-form__close_hover.svg) no-repeat center / cover;
+}

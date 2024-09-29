@@ -1,0 +1,17 @@
+.card__range-ellipse {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: rgba(245, 244, 244, 1);
+  position: absolute;
+  left: calc(var(--ellipse-position) - 4px);
+}
+
+@media screen and (max-width: 640px) {
+  .card__range-ellipse {
+    width: 6px;
+    height: 6px;
+    left: calc(var(--ellipse-position) - 3px);
+  }
+}

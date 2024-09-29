@@ -1,0 +1,18 @@
+.search-form__button {
+  position: absolute;
+  right: 16px;
+  font-size: 0;
+  padding: 0;
+  height: 24px;
+  width: 24px;
+  border: none;
+  background: url(../../../public/images/button-icons/search-form__magnifier.svg) no-repeat center / cover;
+}
+
+@media screen and (max-width: 640px) {
+  .search-form__button {
+    right: 12px;
+    height: 16px;
+    width: 16px;
+  }
+}

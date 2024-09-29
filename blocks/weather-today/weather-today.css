@@ -1,0 +1,27 @@
+.weather-today {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 16px;
+  padding: 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 887px) {
+  .weather-today {
+    flex-direction: column;
+    padding: 24px;
+    gap: 48px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .weather-today {
+    flex-direction: column;
+    padding: 16px;
+    gap: 32px;
+  }
+}

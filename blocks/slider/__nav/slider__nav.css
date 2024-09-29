@@ -1,0 +1,17 @@
+.slider__nav {
+  display: flex;
+  column-gap: 32px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 887px) {
+  .slider__nav {
+    column-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .slider__nav {
+    column-gap: 16px;
+  }
+}

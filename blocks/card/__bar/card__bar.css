@@ -1,0 +1,28 @@
+input[type="range"].card__bar {
+  appearance: none;
+  appearance: none;
+  width: 100%;
+  outline: none;
+  border-radius: 15px;
+  height: 8px;
+  background: rgba(218, 218, 218, 0.4);
+  overflow: hidden;
+}
+
+input[type="range"].card__bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #f5f4f4;
+  outline: 2px solid rgba(245, 244, 244, 0.4);
+}
+
+input[type="range"].card__bar::-moz-range-thumb {
+  appearance: none;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #f5f4f4;
+  outline: 2px solid rgba(245, 244, 244, 0.4);
+}

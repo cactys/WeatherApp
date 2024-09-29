@@ -1,0 +1,20 @@
+.location__local {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 887px) {
+  .location__local {
+    row-gap: 6px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .location__local {
+    row-gap: 4px;
+  }
+}

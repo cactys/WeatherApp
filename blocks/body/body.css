@@ -1,0 +1,18 @@
+.body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-variant-numeric: lining-nums;
+  text-rendering: optimizeLegibility;
+  color: #f5f3f3;
+  padding: 8px 8px;
+  min-height: 100vh;
+  background: url(../../public/background.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}

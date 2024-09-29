@@ -1,0 +1,12 @@
+.location__weather-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 640px) {
+  .location__weather-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

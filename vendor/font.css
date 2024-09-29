@@ -1,0 +1,13 @@
+@font-face {
+  src: url(./fonts/Raleway-Bold.woff) format("woff"),
+        url(.fonts/Raleway-Bold.woff2) format("woff2");
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./fonts/Raleway-Regular.woff) format("woff"),
+        url(./fonts/Raleway-Regular.woff2) format("woff2");
+  font-family: "Raleway";
+  font-weight: 400;
+}

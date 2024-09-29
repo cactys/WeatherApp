@@ -1,0 +1,21 @@
+.header__logo {
+  display: block;
+  height: 48px;
+  width: 192px;
+  background: url(../../../public/images/header__logo_desktop.svg) no-repeat center / cover;
+}
+
+@media screen and (max-width: 887px) {
+  .header__logo {
+    width: 54px;
+    background-image: url(../../../public/images/header__logo_tablet.svg);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__logo {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../public/images/header__logo_mobile.svg);
+  }
+}

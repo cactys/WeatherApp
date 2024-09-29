@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Weather App</title>
+</head>
+
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <h1 class="header__title">Weather App<span class="header__logo"></span></h1>
+      <form class="search-form">
+        <input type="text" class="search-form__input" placeholder="Поиск по городу" id="search-form" value="" />
+        <button class="search-form__button" type="submit">Поиск
+        </button>
+      </form>
+    </header>
+    <main class="main">
+      <section class="weather-today">
+        <article class="location">
+          <div class="location__local">
+            <h2 class="location__city">Кременчуг-константиновское</h2>
+            <time class="location__data" datetime="01-06">Суббота, 06 января</time>
+            <time class="location__time" datetime="11:29">11:29</time>
+          </div>
+          <p class="location__temp">-7&deg;</p>
+          <div class="location__weather">
+            <div class="location__weather-status">
+              <img class="location__weather-icon" alt="Погода"
+                src="./public/images/day-icons/day-icon__broken-clouds.svg" />
+              <p class="location__clouds">Облачно с прояснениями</p>
+            </div>
+            <p class="location__feeling">Ощущается как -11&deg;</p>
+          </div>
+        </article>
+        <ul class='card-list'>
+          <!-- контейнер для добавления карточек -->
+        </ul>
+      </section>
+      <section class="slider">
+        <div class="slider__navigation">
+          <h3 class="slider__nav-title">Прогноз:</h3>
+          <nav class="slider__nav">
+            <button class="slider__nav-link slider__nav-link_active" data-daytime="hours" disabled>на 24 часа</button>
+            <button class="slider__nav-link" data-daytime="days">на 5 дней</button>
+          </nav>
+        </div>
+        <div class="slider__content">
+          <button class="slider__arrow slider__arrow_prev slider__arrow_disabled"></button>
+          <ul class="slider__list">
+            <!-- контейнер для добавления карточек -->
+          </ul>
+          <button class="slider__arrow slider__arrow_next"></button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Проект выполнен в рамках стажировки <a href="https://preax.ru" class="footer__link"
+          target="_blank">PREAX</a></p>
+    </footer>
+  </div>
+
+  <template class="card-template">
+    <li class="card">
+      <div class="card__container">
+        <h3 class="card__title"></h3>
+        <img class="card__icon" />
+        <p class="card__value"></p>
+      </div>
+      <div class="card__bar-container">
+        <div class="card__range">
+          <div class="card__range-ellipse"></div>
+        </div>
+        <div class="card__value-container">
+          <p class="card__bar-value"></p>
+          <p class="card__min-value card__min-value_disable"></p>
+          <p class="card__max-value card__max-value_disable"></p>
+        </div>
+      </div>
+    </li>
+  </template>
+
+  <template class="days-template">
+    <li class="slider__list-item">
+      <time datetime="" class="slider__date"></time>
+      <img src="" alt="" class="slider__icon">
+      <p class="slider__temp"></p>
+    </li>
+  </template>
+
+  <template class="hours-template">
+    <li class="slider__list-item">
+      <time datetime="" class="slider__date"></time>
+      <img src="" alt="" class="slider__icon">
+      <p class="slider__temp"></p>
+    </li>
+  </template>
+
+  <script type="module" src="./pages/index.js"></script>
+</body>
+
+</html>

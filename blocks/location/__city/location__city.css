@@ -1,0 +1,15 @@
+.location__city {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  color: #f5f4f4;
+}
+
+@media screen and (max-width: 640px) {
+  .location__city {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 887px) {
+  .header {
+    padding: 24px;
+    column-gap: 135px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .header {
+    column-gap: 16px;
+  }
+}

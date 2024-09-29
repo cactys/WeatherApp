@@ -1,0 +1,15 @@
+.location__temp {
+  margin: 0;
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 100%;
+  text-align: center;
+  color: #f5f4f4;
+}
+
+@media screen and (max-width: 640px) {
+  .location__temp {
+    font-size: 56px;
+    line-height: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.location__weather-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .location__weather-status {
+    column-gap: 4px;
+  }
+}

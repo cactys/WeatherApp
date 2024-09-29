@@ -1,0 +1,11 @@
+.slider__icon {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 640px) {
+  .slider__icon {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,19 @@
+.slider__arrow_disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.slider__arrow_disabled:hover {
+  opacity: 0.5;
+  background: rgba(245, 244, 244, 0.4);
+  background-image: url(../../../../public/images/button-icons/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+}
+
+@media screen and (max-width: 640px) {
+  .slider__arrow_disabled:hover {
+    background-size: 16px;
+  }
+}

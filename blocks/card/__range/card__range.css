@@ -1,0 +1,27 @@
+.card__range {
+  display: block;
+  height: 8px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(218, 218, 218, 0.4);
+  position: relative;
+  overflow: hidden;
+
+  mask: radial-gradient(circle 20px at var(--ellipse-position),
+      #000 4px,
+      transparent 4px,
+      transparent 6px,
+      #000 0);
+}
+
+@media screen and (max-width: 640px) {
+  .card__range {
+    height: 6px;
+
+    mask: radial-gradient(circle 20px at var(--ellipse-position),
+        #000 3px,
+        transparent 3px,
+        transparent 5px,
+        #000 0);
+  }
+}

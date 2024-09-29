@@ -1,0 +1,13 @@
+.slider__date {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #202020;
+}
+
+@media screen and (max-width: 640px) {
+  .slider__date {
+    font-size: 12px;
+    line-height: 133%;
+  }
+}
